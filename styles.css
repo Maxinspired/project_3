@@ -1,0 +1,83 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  width: 1440px;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  margin-left: 35px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  width: 75%;
+  margin: 20px auto;
+  line-height: 1.7;
+  ;
+}
+
+.svg {
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.main {
+  border-radius: 10px;
+  width: 864px;
+  height: 540px;
+
+  margin: 180px auto;
+  position: relative;
+}
+
+.main_1 {
+  background-color: hsl(31, 77%, 52%);
+  width: 288px;
+  height: 540px;
+  left: 0;
+  position: absolute;
+  border-radius: 10px 0 0 10px;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+
+  weight:400px;
+  font-size: 15px;
+  color: hsl(184, 100%, 22%);
+  margin-left: 35px;
+  margin-top: 135px;
+}
+
+.button:hover {
+  border: solid:6px;
+  border-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: inherit;
+}
+
+.main_2 {
+  background-color: hsl(184, 100%, 22%);
+  width: 288px;
+  height: 540px;
+  margin-left: 288px;
+  position: absolute;
+}
+
+.main_3 {
+  background-color: hsl(179, 100%, 13%);
+  width: 288px;
+  height: 540px;
+  right: 0;
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+}
